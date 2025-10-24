@@ -21,7 +21,7 @@ in this manner in
 [Amazon Web Services](https://aws.amazon.com/sagemaker/) or on the
 [IBM Cloud](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_latest/wsj/analyze-data/jupyterlab.html)
 etcetera. If you choose to go this way there are two things to check on: The cost for the value-added service
-and whether the results of your work will be transferrable to other environments / platforms.
+and whether the results of your work will be transferable to other environments / platforms.
 
 
 That said, we'll proceed with the Do It Yourself On The Cloud approach. Here is an example of a notebook server browser interface.
@@ -71,7 +71,7 @@ a cloud account. There is enough complexity to merit a walk-through. Here's the 
     * The researcher tests the Jupyter Lab server by connecting via browser
         * This makes use of a secure connection called an *ssh tunnel*
 * The researcher uses cloud management tools to create an ***image*** of the VM on the cloud
-    * Unlike a ***container***, this image is cloud-specific (not transferrable to other clouds)
+    * Unlike a ***container***, this image is cloud-specific (not transferable to other clouds)
 * The researcher Terminates (deletes) the VM: It is no longer available
     * The stored ***image*** persists and can be used to start up a new VM
 
@@ -96,7 +96,7 @@ and share.
 
 * Authentication
     * *Authentication* is "logging in", i.e. you are authenticated to use a resource on the cloud
-    * On the cloud there are (at least) three authentication paths: Username/passord, login keypairs and IAM Access Keys
+    * On the cloud there are (at least) three authentication paths: Username/password, login keypairs and IAM Access Keys
     * Authentication is generally **credential** use over a **secure connection**
         * The **secure connection** is built into applications like **ssh** as a protocol: It just works.
         * The **credential** may be a file containing long text strings: Guard as if they are passwords to your bank account
@@ -119,7 +119,7 @@ and share.
 * Block storage is the term used for a disk volume: Root operating system, data drives etc
     * On AWS this is called Elastic Block Storage (EBS)
     * AWS also supports temporary disk storage through the [*instance store*](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
-    * Distinguish between **Elastic Block Strage (EBS)** and **(ephemeral) instance store volumes**
+    * Distinguish between **Elastic Block Storage (EBS)** and **(ephemeral) instance store volumes**
         * Instance store volumes evaporate on Stop/Start. EBS volumes persist through Stop/Start.
     * Additional storage modes:
         * AWS [EFS (Elastic File System)](https://aws.amazon.com/efs/) shared by multiple instances; ~ UNIX NFS
@@ -134,7 +134,7 @@ The extended version is more comprehensive.
 
 #### Short version
 
-* Install a bash shell on your **Local** computer (laptop, dekstop etc)
+* Install a bash shell on your **Local** computer (laptop, desktop etc)
 * Start a cloud VM, note three things:
    * the generic VM username (here we use `ubuntu`)
    * the ip address of the VM (here we use `12.23.34.45`)
@@ -431,7 +431,7 @@ Issue a `chmod` command to give the keypair file limited `rwx` permissions: `chm
 
 > If running **Windows** on your local computer: You may need to install or enable the native `bash` shell.
 As an alternative you can install an **Ubuntu** `bash` shell. In either case it is useful to realize that
-the *home directoy* of this shell is not the same location as the Windows User home directory.
+the *home directory* of this shell is not the same location as the Windows User home directory.
 If `hedylamarr.pem` was downloaded to `C:\\Users\hedylamarr\Downloads`:  Move it to your `bash` home
 directory, for example using this sequence of commands:
 

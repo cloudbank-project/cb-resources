@@ -8,31 +8,6 @@ Our Cloud 101 video series is a conceptual introduction to the cloud from a rese
 
 These videos cover concrete examples, but stay at a relatively high level to keep at an informative pace. For more detailed walkthroughs of technical content, see our [Cloudbank Solutions](./solutions/index.md).
 
-::::{grid} 1 1 2 3
-
-:::{card}
-:link: ./cloud101/intro.md
-:header: {span .custom-blue-text}`Thinking Cloudily`
-```{image} ./static/cloud101-intro.png
-:width: 50%
-```
-:::
-
-:::{card}
-:link: ./cloud101/cost.md
-:header: Cost Considerations
-![](static/cloud101-cost.png)
-:::
-
-:::{card}
-```{image} https://github.com/rowanc1/pics/blob/main/grapes-wide.png?raw=true
-:alt: Grapes on a vineyard
-:width: 500px
-:align: center
-```
-:::
-::::
-
 ## Design Patterns
 
 Here are some of the most common patterns we see appear in research cloud infrastructure. Follow the links for guides on how to map this work onto cloud services.

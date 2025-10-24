@@ -35,6 +35,6 @@ pixi run serve
 You might also want to run the following checks:
 
 ```
-pixi run check-links
+pixi run linkcheck
 pixi run spellcheck
 ```

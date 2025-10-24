@@ -12,7 +12,7 @@ There are roughly four components to consider when approaching cloud-based quant
 Since the quantum landscape is young and rapidly evolving, the details and pricing of these components naturally change at a rapid pace. As such, we provide summaries and links to the relevant pages of various platforms and avoid directly posting information like pricing, which may quickly become stale. The information as follows is current as of April 2022.
 
 ### AWS
-AWS's quantum offerings are all grouped under the serivce called [Braket](https://aws.amazon.com/braket/). This includes several varieties of third-party quantum hardware, simulators, and libraries to integrate your quantum code with other AWS services.
+AWS's quantum offerings are all grouped under the service called [Braket](https://aws.amazon.com/braket/). This includes several varieties of third-party quantum hardware, simulators, and libraries to integrate your quantum code with other AWS services.
 
 Braket supports traditional job submission to a task queue, and a "hybrid" jobs that involve looping between iterations of a quantum algorithm and processing its results on a traditional virtual machine. The benefit of this mode is that the quantum tasks can "jump" the task queue and run more quickly, though given the extra traditional hardware there is an associated extra cost.
 
@@ -28,7 +28,7 @@ On hardware, AWS charges a flat "task" fee to load your algorithm, and then a "s
 
 ### Azure
 
-Azure's quantum offerings are all grouped under the serivce called [Azure Quantum](https://azure.microsoft.com/en-us/services/quantum). This includes several varieties of third-party quantum hardware, software simulators, and libraries to integrate your quantum code with other Azure services. They also offer "Quantum-inspired" hardware for solving optimization problems (see [their documentation](https://docs.microsoft.com/en-us/azure/quantum/qio-target-list)), which while not true quantum computing can still be used to efficiently run a wide variety of algorithms
+Azure's quantum offerings are all grouped under the service called [Azure Quantum](https://azure.microsoft.com/en-us/services/quantum). This includes several varieties of third-party quantum hardware, software simulators, and libraries to integrate your quantum code with other Azure services. They also offer "Quantum-inspired" hardware for solving optimization problems (see [their documentation](https://docs.microsoft.com/en-us/azure/quantum/qio-target-list)), which while not true quantum computing can still be used to efficiently run a wide variety of algorithms
 
 #### Hardware support
 

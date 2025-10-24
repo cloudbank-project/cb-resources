@@ -8,8 +8,8 @@ version = "0.1.0"
 [tasks]
 serve='myst start --execute'
 build='myst build --execute --html'
-check-links='myst build --check-links'
-spellcheck='codespell --skip  _build,references.bib'
+linkcheck='myst build --check-links'
+spellcheck='codespell --skip  _build,references.bib --ignore-words-list braket'
 
 [dependencies]
 mystmd = ">=1.5.1,<2"

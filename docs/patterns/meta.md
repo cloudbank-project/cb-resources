@@ -123,7 +123,7 @@ as well and this is called the **Littlest Jupyter Hub**. It is not twee.
 
 The point: Much of the Jupyter notebook support we describe above can be done on one's own machine... up until we get to
 large infrastructure deployments like Jupyter Hubs where a set of servers are needed. We can rent these on the cloud. The
-trick is to have them automatically scale up and down according to human demand so as to mimimize cost to operate. And we
+trick is to have them automatically scale up and down according to human demand so as to minimize cost to operate. And we
 want to understand how it is that they can be made reliable so that they do not lose our work. This is the persistence problem.
 
 
