@@ -32,7 +32,6 @@ That said, we'll proceed with the Do It Yourself On The Cloud approach. Here is 
 
 
 * [Ok now what is the plan?](#what-is-the-plan)
-    * (and while we are it it: [How does one simplify the bash terminal display](https://robfatland.github.io/greenandblack/)?)
 * [Why does this require instructions?](#why-instructions-are-necessary)
     * [Key concepts](#key-concepts)
 * [Let's do it!](#walk-through)

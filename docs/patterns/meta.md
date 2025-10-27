@@ -69,7 +69,7 @@ in the process.
 ## Binder sandboxes
 
 
-The point: A simple bit of reproducibility is provided at not cost by [**binder**](https://binder.org), a service
+The point: A simple bit of reproducibility is provided at not cost by [**binder**](https://mybinder.org), a service
 that will replicate and execute your Jupyter notebooks. It is a very low-power copy of your computing environment
 so you will not be able to use it to calculate big things like the mass of the proton. But it is automatic and it
 does execute Jupyter notebooks. Again at the cost of some time invested.

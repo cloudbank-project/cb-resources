@@ -33,6 +33,7 @@ project:
         - file: docs/solutions/cbs-quantum.md
         - file: docs/solutions/cbs-quotas.md
         - file: docs/solutions/cbs-security.md
+        - file: docs/solutions/cbs-data-server.md
         - file: docs/solutions/cbs-jupyter.md
     - file: docs/platforms/index.md
 

@@ -18,10 +18,10 @@ If you are a CloudBank awardee, or thinking of submitting a proposal to get Clou
 
 Regardless of legal compliance, if the safety of the data you keep in the cloud is a concern, there are practices you can take to mitigate the risk of unauthorized theft or ransomware attacks.
 
-For starters, check out our [CloudBank Solution on securing your data](../../solutions/cbs-security). Following that, here are some great articles from cloud vendors about adopting a cybersecurity mindset. While each is authored by a specific vendor, they are generally applicable regardless of which platform you are using.
+For starters, check out our [CloudBank Solution on securing your data](../solutions/cbs-security). Following that, here are some great articles from cloud vendors about adopting a cybersecurity mindset. While each is authored by a specific vendor, they are generally applicable regardless of which platform you are using.
 
 - [GCP: Best practices to protect your organization against ransomware threats](https://cloud.google.com/blog/products/identity-security/5-pillars-of-protection-to-prevent-ransomware-attacks)
-- [IBM's definitive guide to ransomware](https://www.ibm.com/downloads/cas/EV6NAQR4) (PDF)
+- [IBM's definitive guide to ransomware](https://www.ibm.com/think/x-force/ransomware-renaissance-definitive-guide-2023) (PDF)
 - [AWS: Top 10 security best practices for securing data in Amazon S3](https://aws.amazon.com/blogs/security/top-10-security-best-practices-for-securing-data-in-amazon-s3/)
 - [Azure data security and encryption best practices
 ](https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices)
