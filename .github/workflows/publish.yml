@@ -35,6 +35,12 @@ jobs:
       - name: Build website
         run: pixi run build
 
+      - name: Spellcheck
+        run: pixi run spellcheck
+
+      - name: Linkcheck
+        run: pixi run linkcheck
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
