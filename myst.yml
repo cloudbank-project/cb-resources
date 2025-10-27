@@ -25,6 +25,7 @@ project:
     - file: docs/bestpractices/index.md
     - title: Solutions
       children:
+        - file: docs/solutions/index.md
         - url: https://github.com/cloudbank-project/containers-tutorial
           title: Containerization
         - url: https://github.com/cloudbank-project/hpc
@@ -32,6 +33,7 @@ project:
         - file: docs/solutions/cbs-quantum.md
         - file: docs/solutions/cbs-quotas.md
         - file: docs/solutions/cbs-security.md
+        - file: docs/solutions/cbs-data-server.md
         - file: docs/solutions/cbs-jupyter.md
     - file: docs/platforms/index.md
 

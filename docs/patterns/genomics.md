@@ -5,7 +5,7 @@ The cloud brings to genomics teams the ability to churn through bursts of worklo
 
 ## Introductory guides
 
-There is a substantial amount of overlap between the needs of genomics projects and more general HPC workloads. That said, cloud platforms tend to provide gudies and dedicated services for doing genomics work in addition to their offerings for [general HPC workloads](../hpc). Here are links for the various offerings from CloudBank-supported platforms:
+There is a substantial amount of overlap between the needs of genomics projects and more general HPC workloads. That said, cloud platforms tend to provide gudies and dedicated services for doing genomics work in addition to their offerings for [general HPC workloads](./hpc.md). Here are links for the various offerings from CloudBank-supported platforms:
 
 - AWS:
     - [AWS Genomics Services](https://aws.amazon.com/health/genomics/)

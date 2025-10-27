@@ -42,7 +42,7 @@ Azure Quantum's pricing has different models depending on the hardware being use
 
 ### GCP
 
-Google Cloud Platform currently provides access to trapped-ion devices from IonQ through their [GPC Marketplace IonQ Service](https://ionq.com/docs/get-started-with-google-cloud). Although Google has also developed [in-house proprietary quantum hardware](https://quantumai.google/quantum-computing-service), it is still in Early Access and has not been made available to the general public through their cloud platform.
+Google Cloud Platform currently provides access to trapped-ion devices from IonQ through their [GPC Marketplace IonQ Service](https://ionq.com/docs/get-started-with-google-cloud). Although Google has also developed [in-house proprietary quantum hardware](https://quantumai.google), it is still in Early Access and has not been made available to the general public through their cloud platform.
 
 #### Hardware support
 

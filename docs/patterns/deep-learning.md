@@ -2,7 +2,7 @@
 
 The cloud is particularly well suited to training neural networks (or any other form of ML model); it can provide as much computational power as you need, when you need it, and you pay for only what you use.
 
-There is a substantial amount of overlap between the needs of Machine Learning projects and more general HPC workloads. That said, cloud platforms tend to provide separate services for [general HPC workloads](../hpc) and for ML-specific work. These ML services offer value-add tools to make training and inspecting models easier, and can often be built off of pre-trained models provided by the platform. The rest of this article goes into detail about such dedicated ML services.
+There is a substantial amount of overlap between the needs of Machine Learning projects and more general HPC workloads. That said, cloud platforms tend to provide separate services for [general HPC workloads](./hpc.md) and for ML-specific work. These ML services offer value-add tools to make training and inspecting models easier, and can often be built off of pre-trained models provided by the platform. The rest of this article goes into detail about such dedicated ML services.
 
 The major pieces of instracture to think about for ML workloads include:
 
@@ -50,7 +50,7 @@ There are two routes to go for serving notebooks from the cloud:
 
     Like running Jupyter on your own local computer, you can create a virtual machine hosted in the cloud that runs a Jupyter Notebook server. Most cloud platforms provide Linux VMs that come pre-installed with Anaconda, Jupyter and other common data science libraries.
 
-    This method is the most flexible and consistent across cloud platforms, but also the most costly; you're paying for the notebook server even when you're not using it. For ways to mitigate VM costs, check out our [cost mitigation guide](cost-mitigation.md#vms)
+    This method is the most flexible and consistent across cloud platforms, but also the most costly; you're paying for the notebook server even when you're not using it.
 
     Guides:
 

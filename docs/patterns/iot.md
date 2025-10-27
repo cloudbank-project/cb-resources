@@ -9,7 +9,7 @@ Here are a few aspects of IoT that the cloud can help with:
 - Providing '*serverless*' solutions to make that API available at minimal cost to you
 - Keeping a backed up database to store information sent through the API
 
-This work can overlap substantially with [Science Gateways](../gateways), so it may be worth checking out our resources for those as well.
+This work can overlap substantially with [Science Gateways](./gateways), so it may be worth checking out our resources for those as well.
 
 ## APIs
 
@@ -19,7 +19,7 @@ Here are some guides on how to design APIs. Even though they're published by spe
 
 - [Azure API Design Guide](https://azure.microsoft.com/mediahandler/files/resourcefiles/api-design/Azure_API-Design_Guide_eBook.pdf) (PDF)
 - [(AWS) How to Architect APIs for Scale and Security](https://aws.amazon.com/blogs/architecture/how-to-architect-apis-for-scale-and-security/)
-- [RESTFUL APIs Best Practices - Google Cloud Apigee](https://apigee.com/about/cp/rest-api-best-practices) (ebook)
+- [RESTFUL APIs Best Practices - Google Cloud Apigee](https://cloud.google.com/apigee/resources/ebook/web-api-design-register/?int_source=website&int_medium=resources&int_campaign=ebook&int_content=web-api-design-ebook) (ebook)
 
 ## Serverless
 
@@ -27,7 +27,7 @@ Rather than leaving a VM running as a server to respond to API requests, most cl
 
 Here are guides to getting started with serverless resources on various cloud platforms:
 
-- [CloudBank Data Server Solution](../../solutions/cbs-data-server/)
+- [CloudBank Data Server Solution](../solutions/cbs-data-server.md)
 - AWS
     - [Building an API with AWS Lambdas](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html)
     - [Building an API with containers](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-private-integration.html)
