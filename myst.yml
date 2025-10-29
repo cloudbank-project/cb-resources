@@ -36,6 +36,8 @@ project:
         - file: docs/solutions/cbs-data-server.md
         - file: docs/solutions/cbs-jupyter.md
     - file: docs/platforms/index.md
+    - url: https://www.cloudbank.org
+      title: CloudBank.org
 
 site:
   template: book-theme
