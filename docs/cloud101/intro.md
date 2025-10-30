@@ -1,4 +1,4 @@
-# 1. Introduction
+# Introduction
 
 :::{iframe} https://www.youtube.com/embed/Nyvw1jymTPM
 :width: 100%

@@ -1,4 +1,4 @@
-# 4. Collaboration
+# Collaboration
 
 :::{iframe} https://www.youtube.com/embed/ZwLeAV7Qld4
 :width: 100%
