@@ -39,10 +39,9 @@ N= sqrt(Memory X 0.7 / 8)
 
 ### Run
 
-Each case is run by a spot EC2 launch script shown in the appendix. Actual start of the instance will be when the spot capacity is available for the request. Following image shows the spot instance is in the capacity queue with price information at the time of the information status.
+Each case is run by a spot EC2 launch script shown in the appendix. Actual start of the instance will be when the spot capacity is available for the request. The following image shows the spot instance is in the capacity queue with price information at the time of the information status.
 
-```{figure} benchmarking-static/spot-instance.png
-```
+<img src="benchmarking-static/spot-instance.png" class="border"/>
 
 ## Results & Analysis
 
@@ -67,11 +66,9 @@ Each case is run by a spot EC2 launch script shown in the appendix. Actual start
 | m8a.48xlarge | 4th gen. AMD Epyc 9R14 | 7,987.20 | 3658 | 3587 | 11.64 | 4.21 |
 | r8a.48xlarge | 4th gen. AMD Epyc 9R14 | 7,987.20 | 3706 | 9871 | 42.05 | 5.19 |
 
-```{figure} benchmarking-static/spot-price-comparison.png
-```
+<img src="benchmarking-static/spot-price-comparison.png" class="border"/>
 
-```{figure} benchmarking-static/spot-price-problem-size.png
-```
+<img src="benchmarking-static/spot-price-problem-size.png" class="border"/>
 
 ## Appendix
 
