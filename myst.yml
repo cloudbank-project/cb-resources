@@ -21,11 +21,13 @@ project:
     - title: Design Patterns
       children:
         - pattern: technical-resources/patterns/*.md
-    - file: technical-resources/bestpractices/index.md
+    - title: Best Practices
+      children:
+        - file: technical-resources/bestpractices/index.md
+        - file: technical-resources/bestpractices/benchmarking.md
     - title: Solutions
       children:
         - file: technical-resources/solutions/index.md
-        - file: technical-resources/solutions/benchmarking.md
         - url: https://github.com/cloudbank-project/containers-tutorial
           title: Containerization
         - url: https://github.com/cloudbank-project/hpc
