@@ -1,0 +1,12 @@
+/* Add borders to images in the benchmarking page */
+.border {
+    border: 1px solid #ccc;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Alternative: Add border to all images in content area */
+.content img {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
