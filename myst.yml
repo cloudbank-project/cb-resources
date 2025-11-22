@@ -21,10 +21,7 @@ project:
     - title: Design Patterns
       children:
         - pattern: technical-resources/patterns/*.md
-    - title: Best Practices
-      children:
-        - file: technical-resources/bestpractices/index.md
-        - file: technical-resources/bestpractices/benchmarking.md
+    - file: technical-resources/bestpractices/index.md
     - title: Solutions
       children:
         - file: technical-resources/solutions/index.md
