@@ -22,6 +22,8 @@ project:
       children:
         - pattern: technical-resources/patterns/*.md
     - file: technical-resources/bestpractices/index.md
+    - file: technical-resources/benchmarking/index.md
+      hidden: true
     - title: Solutions
       children:
         - file: technical-resources/solutions/index.md
