@@ -45,7 +45,7 @@ Each case is run by a spot EC2 launch script shown in the appendix. Actual start
 
 ## Results & Analysis
 
-**HPL Performance and cost on the instance used:**
+**HPL Performance and cost on the instance used**
 
 | Instance | CPU | Theor. Peak (Gflops) | 70% mem. Peak (Gflops) | Time took for test (secs) | Total Price (on-demand $) | Total Price (Spot) |
 |----------|-----|---------------------|------------------------|--------------------------|--------------------------|-------------------|
