@@ -2,7 +2,7 @@
 
 ## What is the HPL benchmark?
 
-The High Performance Computing Challenge (HPCC) benchmark suite is used to evaluate the performance and cost of variable cloud compute instances in a comprehensive way. Specially HPL performance in the HPCC tests were comparatively analysed with its performance and price on spot instance use in different hardware architectures under various cloud environments: AWS, Google Cloud, Azure.
+The High Performance Computing Challenge (HPCC) benchmark suite is used to evaluate the performance and cost of variable cloud compute instances in a comprehensive way. Specially HPL performance in the HPCC tests were comparatively analysed with its performance and price on spot instance use in different hardware architectures under various cloud environments: AWS, Google Cloud, Azure. 
 
 **Main purposes:**
 
@@ -45,7 +45,7 @@ Each case is run by a spot EC2 launch script shown in the appendix. Actual start
 
 ## Results & Analysis
 
-**HPL Performance and cost on the instance used:**
+**HPL Performance and cost on the instance used**
 
 | Instance | CPU | Theor. Peak (Gflops) | 70% mem. Peak (Gflops) | Time took for test (secs) | Total Price (on-demand $) | Total Price (Spot) |
 |----------|-----|---------------------|------------------------|--------------------------|--------------------------|-------------------|
