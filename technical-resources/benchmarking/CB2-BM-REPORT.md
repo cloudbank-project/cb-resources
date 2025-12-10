@@ -65,12 +65,12 @@ First we are considering the older generation of AWS instances: m7 series. Perfo
    
 Results shown in the above table are the average from 3 repetition data shown below.
 
-| instance | Run 1 |  |  |  | Run 2 |  |  | Run 3 |  |  |
-| :---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-|  | 70% mem. Peak (Gflops) | Ratio to Peak (%) | Time took for test (secs) | Hourly. Price (Spot) | 70% mem. Peak (Gflops) | Time took for test (secs) | Hourly Price (Spot) | 70% mem. Peak (Gflops) | Time took for test (secs) | Hourly Price (Spot) |
-| m7a.8xlarge | 812 | \#DIV/0\! | 1062 | 0.8851 | 779 | 1108 | 0.8557 | 834.1 | 1035.13 | 0.8314 |
-| m7g.8xlarge | 385 | \#DIV/0\! | 2244 | 0.3800 | 384.8 | 2244 | 0.4655 | 384.4 | 2246 | 0.4687 |
-| m7i.8xlarge | 1120 | \#DIV/0\! | 771 | 0.6696 | 1128 | 765 | 1.6333 | 952.9 | 906 | 0.6983 |
+| instance | Run 1 |  |  | Run 2 |  |  | Run 3 |  |  |
+| :---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+|  | 70% mem. Peak (Gflops) | Time took for test (secs) | Hourly. Price (Spot) | 70% mem. Peak (Gflops) | Time took for test (secs) | Hourly Price (Spot) | 70% mem. Peak (Gflops) | Time took for test (secs) | Hourly Price (Spot) |
+| m7a.8xlarge | 812 | 1062 | 0.8851 | 779 | 1108 | 0.8557 | 834.1 | 1035.13 | 0.8314 |
+| m7g.8xlarge | 385 | 2244 | 0.3800 | 384.8 | 2244 | 0.4655 | 384.4 | 2246 | 0.4687 |
+| m7i.8xlarge | 1120 | 771 | 0.6696 | 1128 | 765 | 1.6333 | 952.9 | 906 | 0.6983 |
 
 ![][image2]
 
