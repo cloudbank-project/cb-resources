@@ -157,13 +157,15 @@ Azure price looks lowest to run the same benchmark problem size. Google VMs also
 
 CONCLUSION
 
-We observe  the followings from the results:
+Here is the rewritten text in correct and more formal English:
 
-\-. It is not economical to use larger instances (more vCPUs) because the price is raising non-lineary high to the vCPU count on the instance  
-\-. The newer generation of CPU instances gives better price performance thanks to larger performance improvements to the price increase.  
-\-. In the instance type of the same vCPU counts, memory optimized instance can give better price performance on larger problem size (lesser price increase but much larger problem size)  
-\-. ARM process looks to give lower price performance to other systems like AMD and Intel X86. This observation is shown from every cluster service: AWS, Google and AZURE.  
-\-. Spot price varies depending on the Cloud service vendor. 
+We observed the following from the results:
+
+* It is not economical to use larger instances (those with more vCPUs) because the price increases non-linearly relative to the vCPU count on the instance.
+* The newer generation of CPU instances offers better price-performance due to significant performance improvements that outweigh the modest price increase.
+* For instance types with the same vCPU count, memory-optimized instance can deliver better price-performance when handling larger problem sizes (it shows a smaller price increase relative to the substantial increase in the supported problem size).
+* ARM processors appear to offer lower price-performance compared to systems using AMD and Intel x86 architectures consistently. This observation is shown across every cluster service tested: AWS, Google Cloud, and Azure.
+* Spot pricing varies significantly among the different cloud service vendors.
 
 APPENDIX
 
